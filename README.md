@@ -24,8 +24,8 @@ This endpoint handles adding payments to user accounts and assigning tokens. It 
 - **userId**: ID of the user making the payment
 - **amount**: Amount of tokens to be added to the user's account
 
-###Initiate Transaction
-###Endpoint: POST /transactions
+### Initiate Transaction
+### Endpoint: POST /transactions
 
 This endpoint initiates a transaction between two users. It deducts tokens from the sender's account and adds them to the recipient's account within a transaction block to ensure data consistency. It accepts the following parameters in the request body:
 
